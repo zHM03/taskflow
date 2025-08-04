@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TaskFlow</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>📋 TaskFlow</h1>
+      <button id="themeToggle">🌙</button>
+    </header>
+
+    <section class="task-form">
+      <input type="text" id="taskInput" placeholder="New task..." required>
+      <input type="date" id="taskDate" required>
+      <select id="taskCategory">
+        <option value="General">General</option>
+        <option value="Work">Work</option>
+        <option value="Personal">Personal</option>
+      </select>
+      <button id="addTaskBtn">Add</button>
+    </section>
+
+    <section class="filters">
+      <button data-filter="All">All</button>
+      <button data-filter="General">General</button>
+      <button data-filter="Work">Work</button>
+      <button data-filter="Personal">Personal</button>
+    </section>
+
+    <ul id="taskList" class="task-list"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
