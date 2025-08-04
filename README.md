@@ -18,12 +18,4 @@ Built with vanilla JavaScript, HTML, and CSS, TaskFlow helps you organize your d
 
 ## Demo
 
-[Live Demo Link](#) *(Replace this with your GitHub Pages or deployed app URL)*
-
----
-
-## Installation & Usage
-
-1. Clone the repository  
-```bash
-git clone https://github.com/your-username/taskflow.git
+[Live Demo Link](#)
